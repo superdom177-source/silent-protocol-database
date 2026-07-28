@@ -189,3 +189,27 @@ button:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
+.top-menu {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #555;
+    background: #111;
+}
+
+
+.top-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.top-menu a:hover {
+    color: #aaa;
+}
