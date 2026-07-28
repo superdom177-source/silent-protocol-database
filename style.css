@@ -136,3 +136,14 @@ footer {
     padding: 20px;
 
 }
+
+
+section {
+    text-align: center;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto;
+}
