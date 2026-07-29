@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Foundation Login</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>FOUNDATION SECURE TERMINAL</h1>
+
+<p>SILENT PROTOCOL FOUNDATION</p>
+
+</header>
+
+<section class="system-panel">
+
+<h2>AUTHORIZED PERSONNEL ONLY</h2>
+
+<p>Please enter your credentials.</p>
+
+<br>
+
+<input type="text" id="username" placeholder="Username">
+
+<br><br>
+
+<input type="password" id="password" placeholder="Password">
+
+<br><br>
+
+<button onclick="login()">
+LOGIN
+</button>
+
+<p id="message"></p>
+
+</section>
+
+<footer>
+
+Unauthorized access is prohibited.
+
+</footer>
+
+<script>
+
+function login(){
+
+let username = document.getElementById("username").value;
+let password = document.getElementById("password").value;
+
+if(username === "admin" && password === "scp2026"){
+
+window.location.href = "index.html";
+
+}else{
+
+document.getElementById("message").innerHTML = "ACCESS DENIED";
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
